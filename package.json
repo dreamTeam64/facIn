@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dreamTeam64/facIn/issues"
   },
-  "homepage": "https://github.com/dreamTeam64/facIn#readme"
+  "homepage": "https://github.com/dreamTeam64/facIn#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express3-handlebars": "^0.5.2"
+  }
 }
