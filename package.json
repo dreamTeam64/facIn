@@ -1,0 +1,19 @@
+{
+  "name": "facin",
+  "version": "0.0.1",
+  "description": "A Web App for students who want to connect to each over for work",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamTeam64/facIn.git"
+  },
+  "author": "Thoraval François, Lucchese Gregory, Fontaine Pierre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamTeam64/facIn/issues"
+  },
+  "homepage": "https://github.com/dreamTeam64/facIn#readme"
+}
