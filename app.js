@@ -17,3 +17,9 @@ var handlebars = require('express3-handlebars').create({
     }
   }
 });
+
+app.engine('handlebars', handlebars.engine);//Def du View Engine
+app.set('port',process.env.PORT || 3000);//Def du port d'écoute du serveur
+app.set('view engine', 'handlebars');
+
+app.use(require('body-parser')());//interessant pour découper des urls
